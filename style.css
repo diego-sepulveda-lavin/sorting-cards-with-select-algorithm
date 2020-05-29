@@ -1,0 +1,102 @@
+body {
+    background-color: #29aa66;
+}
+
+.card {
+    background-color: white;
+    height: 70px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid blue
+}
+
+.negrotop {
+    color: black;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.negrobottom {
+    color: black;
+    font-size: 15px;
+    text-align: end;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.rojotop {
+    color: red;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.rojobottom {
+    color: red;
+    font-size: 15px;
+    text-align: end;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.cartanegra {
+    color: black;
+    font-size: 21px;
+    text-align: center;
+}
+
+.cartaroja {
+    color: red;
+    font-size: 21px;
+    text-align: center;
+}
+
+#original {
+    display: inline-block;
+}
+
+.boton {
+    width: 50px;
+}
+
+#cards-num-input{
+    width: 50px;
+}
+
+/* .header{
+    border: 3px solid red;
+}
+
+.header-controls{
+    border: 3px solid blue;
+ 
+}*/
+
+.header-cards {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+/* .main {
+    border: 3px solid palevioletred;
+
+} */
+
+.step {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.step-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color:black;
+}
+
